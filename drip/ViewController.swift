@@ -12,8 +12,9 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let result = Utils.checkPESEL("04222911339")
+        print(result)
     }
-
 
 }
 

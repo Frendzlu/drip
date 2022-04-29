@@ -16,6 +16,7 @@
 		F9A7D596281BB49800104B05 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9A7D594281BB49800104B05 /* LaunchScreen.storyboard */; };
 		F9A7D5A1281BB49800104B05 /* dripTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A7D5A0281BB49800104B05 /* dripTests.swift */; };
 		F9A7D5AC281BB49800104B05 /* dripUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A7D5AB281BB49800104B05 /* dripUITests.swift */; };
+		F9A7D5BA281BB4CF00104B05 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A7D5B9281BB4CF00104B05 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F9A7D5A7281BB49800104B05 /* dripUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dripUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9A7D5AB281BB49800104B05 /* dripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dripUITests.swift; sourceTree = "<group>"; };
 		F9A7D5AD281BB49800104B05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9A7D5B9281BB4CF00104B05 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				F9A7D594281BB49800104B05 /* LaunchScreen.storyboard */,
 				F9A7D597281BB49800104B05 /* Info.plist */,
 				F9A7D58F281BB49600104B05 /* drip.xcdatamodeld */,
+				F9A7D5B9281BB4CF00104B05 /* Utils.swift */,
 			);
 			path = drip;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9A7D5BA281BB4CF00104B05 /* Utils.swift in Sources */,
 				F9A7D591281BB49600104B05 /* drip.xcdatamodeld in Sources */,
 				F9A7D58B281BB49600104B05 /* ViewController.swift in Sources */,
 				F9A7D587281BB49600104B05 /* AppDelegate.swift in Sources */,
